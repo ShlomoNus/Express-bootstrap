@@ -1,0 +1,11 @@
+usual case:
+
+touch [folder name] && cd [folder name] && yarn add express &&  yarn add cors &&  yarn add body-parser &&
+  yarn add axios &&  yarn add bcrypt &&  yarn add joi &&  yarn add jsonwebtoken && 
+   yarn add mongoose &&  yarn add passport 
+
+new pc :
+ 
+ npm i yarn -g &&  touch [folder name] && cd [folder name] && yarn add express &&   yarn add cors &&  yarn add body-parser &&
+  yarn add axios &&  yarn add bcrypt &&  yarn add joi &&  yarn add jsonwebtoken && 
+   yarn add mongoose &&  yarn add passport 
