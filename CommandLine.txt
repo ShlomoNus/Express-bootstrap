@@ -8,4 +8,4 @@ new pc :
  
  npm i yarn -g &&  mkdir [folder name] && cd [folder name] && touch server.js && yarn add express &&   yarn add cors &&  yarn add body-parser &&
   yarn add axios &&  yarn add bcrypt &&  yarn add joi &&  yarn add jsonwebtoken && 
-   yarn add mongoose &&  yarn add passport 
+   yarn add mongoose &&  yarn add passport da
