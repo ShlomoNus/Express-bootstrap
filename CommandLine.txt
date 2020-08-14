@@ -1,11 +1,32 @@
-usual case:
-
-mkdir  [folder name] && cd [folder name] && touch server.js && yarn add express &&  yarn add cors &&  yarn add body-parser &&
-  yarn add axios &&  yarn add bcrypt &&  yarn add joi &&  yarn add jsonwebtoken && 
-   yarn add mongoose &&  yarn add passport 
-
 new pc :
  
- npm i yarn -g &&  mkdir [folder name] && cd [folder name] && touch server.js && yarn add express &&   yarn add cors &&  yarn add body-parser &&
-  yarn add axios &&  yarn add bcrypt &&  yarn add joi &&  yarn add jsonwebtoken && 
-   yarn add mongoose &&  yarn add passport da
+npm i yarn -g &&
+
+
+create basic Project:
+mkdir [folder name] && cd [folder name] && yarn init -y && mkdir src && cd src && touch server.js && cd ..&& touch .gitignore && echo $'yarn.lock\npackage-lock.json\n/node_modules' > .gitignore
+
+add  structure to the project:
+cd src&& mkdir services && cd services && touch .service.js && cd .. && mkdir controllers && cd controllers && touch .controller.js && cd ..&& mkdir models && cd models && touch .model.js && cd .. && mkdir routes && cd routes && touch .route.js && cd .. && mkdir middlewares && cd middlewares && touch .middleware.js && cd ../..
+
+basic libs:
+ yarn add express  cors  body-parser axios  bcrypt  joi  jsonwebtoken   passport  dotenv 
+
+ dev :
+
+ yarn add nodemon -D
+ yarn add typescript -D 
+
+dbs:
+
+ yarn add mongoose 
+ yarn add sequelize
+ yarn add typeorm
+
+socket.io :
+
+yarn add socket.io && mkdir socket && cd socket && touch socket.js 
+
+
+
+ 
