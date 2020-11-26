@@ -4,7 +4,7 @@ npm i yarn -g &&
 
 
 create basic Project:
-mkdir [folder name] && cd [folder name] && yarn init -y && mkdir src && cd src && touch app.js && cd ..&& touch .gitignore && echo $'yarn.lock\npackage-lock.json\n/node_modules' > .gitignore && cd ..
+mkdir [folder name] && cd [folder name] && yarn init -y && mkdir src && cd src && touch app.js && cd ..&& touch .gitignore && echo $'yarn.lock\npackage-lock.json\n/node_modules' > .gitignore 
 
 add  structure to the project:
 cd src&& mkdir services && cd services && touch .service.js && cd .. && mkdir controllers && cd controllers && touch .controller.js && cd ..&& mkdir models && cd models && touch .model.js && cd .. && mkdir routes && cd routes && touch .route.js && cd .. && mkdir middlewares && cd middlewares && touch .middleware.js && cd .. && mkdir repositories && cd repositories && touch .repository.js && cd ../..
