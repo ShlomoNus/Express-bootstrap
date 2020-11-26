@@ -24,8 +24,8 @@ socket.io :
 yarn add socket.io && mkdir socket && cd socket && touch socket.js 
 
 
-!!! client !!!:
- create-react-app   client && cd client  && yarn add react-router-dom axios node-sass generate-react-cli 
+!!! client !!!: 
+cd ..&& create-react-app   client && cd client  && yarn add react-router-dom axios node-sass generate-react-cli 
 
 redux:
 yarn add redux react-redux 
