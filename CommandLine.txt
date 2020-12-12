@@ -10,8 +10,7 @@ basic libs:
 
  dev :
 
- yarn add nodemon -D
- yarn add typescript -D 
+ yarn add -D nodemon typescript ts-node @types/express 
 
 dbs:
 
